@@ -1,0 +1,20 @@
+deno 1.9.2 (release, x86_64-unknown-linux-gnu) 
+command for upgrading 
+deno upgrade
+eno 1.11.0 (release, x86_64-unknown-linux-gnu)
+v8 9.1.269.35
+typescript 4.3.2
+Puppeteer installation
+
+PUPPETEER_PRODUCT=chrome deno run -A --unstable https://deno.land/x/puppeteer@9.0.1/install.ts
+for installation using shell
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
+export PATH="/home/hafeesa/.deno/bin/:$PATH"
+is added to.bashrc file for giving priority to this path
+https://pptr.dev/   for api reference
+FOR MEDIGYSLDS TEST CASE EXECUTION 
+deno test -A --unstable
+
+export DPO_SITE_ID='medigySlds' 
+
