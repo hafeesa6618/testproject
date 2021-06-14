@@ -10,5 +10,6 @@ async function openBrowser(
   site = "https://devl.medigy.com/",
 ): Promise<OpenBrowser> {
   const browser = await getBrowser();
+  const page=await browser.page();
 }
 //await page.Click
